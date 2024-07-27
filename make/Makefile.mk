@@ -1,8 +1,8 @@
 .DELETE_ON_ERROR:
 .DEFAULT_GOAL:=help
-PRJ_BUILD?=.project/build
+PRJ_BUILD?=.project/build/python
 PRJ_DEPENDENCIES?=.project/dependencies
-PROJECT_BUILD_MAKE?=.project/build/make
+PROJECT_BUILD_MAKE?=${PRJ_BUILD}/make
 
 PRJ_TEMP?=.tmp
 PRJ_SETUP:=${PRJ_BUILD}/setup
